@@ -28,3 +28,5 @@ with open ('data01', 'rb') as Fichier:
     depickler01=pickle.Unpickler(Fichier)
     scoreRecup=depickler01.load()
 print (scoreRecup)
+
+a = 1
